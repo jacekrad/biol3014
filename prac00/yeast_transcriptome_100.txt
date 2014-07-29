@@ -1,0 +1,100 @@
+P38903	2A5D_YEAST	reviewed	Serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit delta isoform (PP2A, B subunit, B' delta isoform) (Protein RTS1) (Protein SCS1)	RTS1 SCS1 YOR014W OR26.04	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	757
+P31383	2AAA_YEAST	reviewed	Protein phosphatase PP2A regulatory subunit A (PR65)	TPD3 YAL016W FUN32	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	635
+Q00362	2ABA_YEAST	reviewed	Protein phosphatase PP2A regulatory subunit B (Cell division control protein 55) (PR55)	CDC55 YGL190C G1345	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	526
+P47177	2NDP_YEAST	reviewed	Putative nitronate monooxygenase (EC 1.13.12.16) (Nitroalkane oxidase)	YJR149W J2213	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	404
+P47096	3HAO_YEAST	reviewed	3-hydroxyanthranilate 3,4-dioxygenase (EC 1.13.11.6) (3-hydroxyanthranilate oxygenase) (3-HAO) (3-hydroxyanthranilic acid dioxygenase) (HAD) (Biosynthesis of nicotinic acid protein 1)	BNA1 HAD1 YJR025C J1550	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	177
+P40433	6P21_YEAST	reviewed	6-phosphofructo-2-kinase 1 (6PF-2-K 1) (EC 2.7.1.105) (Phosphofructokinase 2 I)	PFK26 YIL107C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	827
+Q12471	6P22_YEAST	reviewed	6-phosphofructo-2-kinase 2 (6PF-2-K 2) (EC 2.7.1.105) (Phosphofructokinase 2 II)	PFK27 YOL136C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	397
+P38720	6PGD1_YEAST	reviewed	6-phosphogluconate dehydrogenase, decarboxylating 1 (EC 1.1.1.44)	GND1 YHR183W	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	489
+P53319	6PGD2_YEAST	reviewed	6-phosphogluconate dehydrogenase, decarboxylating 2 (EC 1.1.1.44)	GND2 YGR256W G9170	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	492
+P47182	AAD10_YEAST	reviewed	Putative aryl-alcohol dehydrogenase AAD10 (EC 1.1.1.-)	AAD10 YJR155W J2245	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	288
+P42884	AAD14_YEAST	reviewed	Putative aryl-alcohol dehydrogenase AAD14 (EC 1.1.1.-)	AAD14 YNL331C N0300	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	376
+Q08361	AAD15_YEAST	reviewed	Putative aryl-alcohol dehydrogenase AAD15 (EC 1.1.1.-)	AAD15 YOL165C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	143
+P43546	AAD16_YEAST	reviewed	Putative aryl-alcohol dehydrogenase AAD16 (EC 1.1.1.-)	AAD16 YFL057C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	152
+P25612	AAD3_YEAST	reviewed	Putative aryl-alcohol dehydrogenase AAD3 (EC 1.1.1.-)	AAD3 YCR107W	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	363
+Q07747	AAD4_YEAST	reviewed	Probable aryl-alcohol dehydrogenase AAD4 (EC 1.1.1.-)	AAD4 YDL243C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	329
+P43547	AAD6_YEAST	reviewed	Putative aryl-alcohol dehydrogenase AAD6 (EC 1.1.1.-)	AAD6 YFL056C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	212
+P12904	AAKG_YEAST	reviewed	5'-AMP-activated protein kinase subunit gamma (AMPK gamma) (AMPK subunit gamma) (Regulatory protein CAT3) (Sucrose non-fermenting protein 4)	SNF4 CAT3 SCI1 YGL115W	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	322
+P37898	AAP1_YEAST	reviewed	Alanine/arginine aminopeptidase (EC 3.4.11.-)	AAP1 YHR047C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	856
+P08521	AAP_YEAST	reviewed	Arginine attenuator peptide (AAP) (CPA1 leader peptide)	YOR302W	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	25
+P32357	AAR2_YEAST	reviewed	A1 cistron-splicing factor AAR2	AAR2 YBL074C YBL06.06 YBL0611	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	355
+P23542	AATC_YEAST	reviewed	Aspartate aminotransferase, cytoplasmic (EC 2.6.1.1) (Transaminase A)	AAT2 ASP5 YLR027C L1746	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	418
+Q01802	AATM_YEAST	reviewed	Aspartate aminotransferase, mitochondrial (EC 2.6.1.1) (Transaminase A)	AAT1 YKL106W YKL461	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	451
+Q08641	AB140_YEAST	reviewed	tRNA(Thr) (cytosine(32)-N(3))-methyltransferase (EC 2.1.1.268) (Actin-binding protein of 140 kDa) (tRNA methyltransferase of 140 kDa)	ABP140 TRM140 YOR239W YOR240W	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	628
+P14164	ABF1_YEAST	reviewed	ARS-binding factor 1 (Bidirectionally acting factor 1) (DNA replication enhancer-binding protein OBF1) (SFB-B)	ABF1 BAF1 OBF1 REB2 SBF1 YKL112W YKL505	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	731
+Q02486	ABF2_YEAST	reviewed	ARS-binding factor 2, mitochondrial	ABF2 HIM1 YMR072W YM9916.11	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	183
+P47146	ABM1_YEAST	reviewed	Aberrant microtubules protein 1	ABM1 YJR108W J1988	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	123
+P15891	ABP1_YEAST	reviewed	Actin-binding protein	ABP1 YCR088W YCR88W	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	592
+P39970	ACA1_YEAST	reviewed	ATF/CREB activator 1	ACA1 YER045C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	489
+P40535	ACA2_YEAST	reviewed	ATF/CREB activator 2 (Chromosome stability protein CST6)	CST6 ACA2 YIL036W	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	587
+Q00955	ACAC_YEAST	reviewed	Acetyl-CoA carboxylase (ACC) (EC 6.4.1.2) (Fatty acid synthetase 3) (mRNA transport-defective protein 7) [Includes: Biotin carboxylase (EC 6.3.4.14)]	ACC1 ABP2 FAS3 MTR7 YNR016C N3175	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	2233
+P31787	ACBP_YEAST	reviewed	Acyl-CoA-binding protein (ACBP)	ACB1 ACB YGR037C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	87
+P21192	ACE2_YEAST	reviewed	Metallothionein expression activator	ACE2 YLR131C L3123 L9606.10	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	770
+P28240	ACEA_YEAST	reviewed	Isocitrate lyase (ICL) (EC 4.1.3.1) (Threo-D(S)-isocitrate glyoxylate-lyase) (Isocitrase) (Isocitratase)	ICL1 YER065C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	557
+Q12031	ACEB_YEAST	reviewed	Mitochondrial 2-methylisocitrate lyase (Methylisocitrate lyase) (EC 4.1.3.30)	ICL2 YPR006C LPZ6C YP9723.06C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	575
+P47129	ACF4_YEAST	reviewed	Assembly-complementing factor 4	ACF4 YJR083C J1857	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	309
+P32316	ACH1_YEAST	reviewed	Acetyl-CoA hydrolase (EC 3.1.2.1) (Acetyl-CoA deacylase) (Acetyl-CoA acylase)	ACH1 YBL015W YBL03.18 YBL0304	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	526
+Q07622	ACK1_YEAST	reviewed	Activator of C kinase protein 1	ACK1 YDL203C D1066	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	623
+Q08981	ACM1_YEAST	reviewed	APC/C-CDH1 modulator 1	ACM1 YPL267W	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	209
+Q04401	ACN9_YEAST	reviewed	Acetate non-utilizing protein 9, mitochondrial	ACN9 YDR511W D9719.16	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	133
+P21147	ACO1_YEAST	reviewed	Acyl-CoA desaturase 1 (EC 1.14.19.1) (Fatty acid desaturase 1) (Stearoyl-CoA desaturase 1)	OLE1 YGL055W	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	510
+P39533	ACON2_YEAST	reviewed	Homocitrate dehydratase, mitochondrial (EC 4.2.1.-) (Aconitase 2)	ACO2 YJL200C J0327	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	789
+P19414	ACON_YEAST	reviewed	Aconitate hydratase, mitochondrial (Aconitase) (EC 4.2.1.3) (Citrate hydro-lyase)	ACO1 GLU1 YLR304C L8003.22	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	778
+P13711	ACOX_YEAST	reviewed	Acyl-coenzyme A oxidase (Acyl-CoA oxidase) (EC 1.3.3.6)	POX1 FOX1 YGL205W	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	748
+P32463	ACPM_YEAST	reviewed	Acyl carrier protein, mitochondrial (ACP) (NADH-ubiquinone oxidoreductase 9.6 kDa subunit)	ACP1 YKL192C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	125
+Q01574	ACS1_YEAST	reviewed	Acetyl-coenzyme A synthetase 1 (EC 6.2.1.1) (Acetate--CoA ligase 1) (Acyl-activating enzyme 1)	ACS1 YAL054C FUN44	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	713
+P52910	ACS2_YEAST	reviewed	Acetyl-coenzyme A synthetase 2 (EC 6.2.1.1) (Acetate--CoA ligase 2) (Acyl-activating enzyme 2)	ACS2 YLR153C L9634.10	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	683
+P60010	ACT_YEAST	reviewed	Actin	ACT1 ABY1 END7 YFL039C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	375
+Q02336	ADA2_YEAST	reviewed	Transcriptional adapter 2	ADA2 YDR448W D9461.33	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	434
+Q03233	ADD37_YEAST	reviewed	Alpha1-proteinase inhibitor-degradation deficient protein 37	ADD37 YMR184W YM8010.14	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	198
+P53909	ADE_YEAST	reviewed	Adenine deaminase (ADE) (EC 3.5.4.2) (Adenine aminohydrolase) (AAH)	AAH1 YNL141W N1208 N1825	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	347
+Q2V2Q1	ADF1_YEAST	reviewed	Antisense of depressing factor protein 1	ADF1 YCL058W-A	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	113
+P00330	ADH1_YEAST	reviewed	Alcohol dehydrogenase 1 (EC 1.1.1.1) (Alcohol dehydrogenase I) (YADH-1)	ADH1 ADC1 YOL086C O0947	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	348
+P00331	ADH2_YEAST	reviewed	Alcohol dehydrogenase 2 (EC 1.1.1.1) (Alcohol dehydrogenase II) (YADH-2)	ADH2 ADR2 YMR303C YM9952.05C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	348
+P07246	ADH3_YEAST	reviewed	Alcohol dehydrogenase 3, mitochondrial (EC 1.1.1.1) (Alcohol dehydrogenase III) (YADH-3)	ADH3 YMR083W YM9582.08	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	375
+P10127	ADH4_YEAST	reviewed	Alcohol dehydrogenase 4 (EC 1.1.1.1) (Alcohol dehydrogenase IV) (ADHIV)	ADH4 ZRG5 YGL256W NRC465	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	382
+P38113	ADH5_YEAST	reviewed	Alcohol dehydrogenase 5 (EC 1.1.1.1) (Alcohol dehydrogenase V)	ADH5 YBR145W YBR1122	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	351
+Q04894	ADH6_YEAST	reviewed	NADP-dependent alcohol dehydrogenase 6 (EC 1.1.1.2) (NADP-dependent alcohol dehydrogenase VI) (ScADHVI)	ADH6 YMR318C YM9924.10C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	360
+P25377	ADH7_YEAST	reviewed	NADP-dependent alcohol dehydrogenase 7 (EC 1.1.1.2) (NADP-dependent alcohol dehydrogenase VII) (ADHVII)	ADH7 YCR105W	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	361
+P47143	ADK_YEAST	reviewed	Adenosine kinase (EC 2.7.1.20)	ADO1 YJR105W J1973	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	340
+P25371	ADP1_YEAST	reviewed	Probable ATP-dependent permease	ADP1 YCR011C YCR105 YCR11C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	1049
+Q01976	ADPP_YEAST	reviewed	ADP-ribose pyrophosphatase (EC 3.6.1.13) (ADP-ribose diphosphatase) (ADP-ribose phosphohydrolase) (Adenosine diphosphoribose pyrophosphatase) (ADPR-PPase)	YSA1 YBR111C YBR0907	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	231
+P07248	ADR1_YEAST	reviewed	Regulatory protein ADR1	ADR1 YDR216W YD8142.16 YD8142B.08	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	1323
+P48360	ADRO_YEAST	reviewed	Probable NADPH:adrenodoxin oxidoreductase, mitochondrial (AR) (Adrenodoxin reductase) (EC 1.18.1.6) (Ferredoxin--NADP(+) reductase) (Ferredoxin reductase)	ARH1 YDR376W D9481.5	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	493
+Q12184	ADRX_YEAST	reviewed	Adrenodoxin homolog, mitochondrial (Mitochondrial ferredoxin)	YAH1 YPL252C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	172
+P04710	ADT1_YEAST	reviewed	ADP,ATP carrier protein 1 (ADP/ATP translocase 1) (Adenine nucleotide translocator 1) (ANT 1)	AAC1 YMR056C YM9796.09C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	309
+P18239	ADT2_YEAST	reviewed	ADP,ATP carrier protein 2 (ADP/ATP translocase 2) (Adenine nucleotide translocator 2) (ANT 2) (Petite colonies protein 9)	PET9 AAC2 YBL030C YBL0421	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	318
+P18238	ADT3_YEAST	reviewed	ADP,ATP carrier protein 3 (ADP/ATP translocase 3) (Adenine nucleotide translocator 3) (ANT 3)	AAC3 YBR085W YBR0753	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	307
+P38872	ADY1_YEAST	reviewed	Prospore formation at selected spindle poles protein 1 (Accumulates dyads protein 1)	PFS1 ADY1 YHR185C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	237
+P25613	ADY2_YEAST	reviewed	Accumulation of dyads protein 2 (Ammonia transport outward protein 1)	ADY2 ATO1 YCR010C YCR10C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	283
+Q05955	ADY4_YEAST	reviewed	Accumulates dyads protein 4	ADY4 YLR227C L8083.11	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	493
+Q07732	ADY3_YEAST	reviewed	Accumulates dyads protein 3	ADY3 YDL239C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	790
+P32493	AEP1_YEAST	reviewed	ATPase expression protein 1, mitochondrial (Nuclear control of ATPase messenger RNA expression protein 1)	AEP1 NCA1 YMR064W YM9916.03	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	518
+P22136	AEP2_YEAST	reviewed	ATPase expression protein 2, mitochondrial	AEP2 ATP13 YMR282C YM8021.08C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	580
+Q12089	AEP3_YEAST	reviewed	ATPase expression protein 3	AEP3 YPL005W YP8132.08	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	606
+P53930	AF9_YEAST	reviewed	Protein AF-9 homolog	YAF9 YNL107W N1966	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	226
+P32317	AFG1_YEAST	reviewed	Protein AFG1	AFG1 AFG YEL052W	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	509
+P32794	AFG2_YEAST	reviewed	ATPase family gene 2 protein	AFG2 YLR397C L8084.16	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	780
+Q99222	AFI1_YEAST	reviewed	ARF3-interacting protein 1	AFI1 YOR129C YOR3296C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	893
+P39925	AFG3_YEAST	reviewed	Mitochondrial respiratory chain complexes assembly protein AFG3 (EC 3.4.24.-) (ATPase family gene 3 protein) (Tat-binding homolog 10)	AFG3 YTA10 YER017C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	761
+P33304	AFR1_YEAST	reviewed	Protein AFR1	AFR1 YDR085C D4471	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	620
+P22149	AFT1_YEAST	reviewed	Iron-regulated transcriptional activator AFT1 (Activator of iron transcription protein 1)	AFT1 RCS1 YGL071W	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	690
+Q08957	AFT2_YEAST	reviewed	Iron-regulated transcriptional activator AFT2 (Activator of iron transcription protein 2)	AFT2 YPL202C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	416
+P32323	AGA1_YEAST	reviewed	A-agglutinin anchorage subunit (A-agglutinin cell wall attachment subunit)	AGA1 YNR044W N3431	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	725
+P32781	AGA2_YEAST	reviewed	A-agglutinin-binding subunit	AGA2 YGL032C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	87
+Q12482	AGC1_YEAST	reviewed	Mitochondrial aspartate-glutamate transporter AGC1 (Aspartate-glutamate carrier 1)	AGC1 YPR021C YP9367.01C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	902
+Q04412	AGE1_YEAST	reviewed	ADP-ribosylation factor GTPase-activating protein effector protein 1 (ARF GAP effector protein 1) (Suppressor of ARF1 thermosensitive mutant protein 1)	AGE1 SAT1 YDR524C D9719.28	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	482
+P40529	AGE2_YEAST	reviewed	ADP-ribosylation factor GTPase-activating protein effector protein 2 (ARF GAP effector protein 2)	AGE2 YIL044C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	298
+P38628	AGM1_YEAST	reviewed	Phosphoacetylglucosamine mutase (PAGM) (EC 5.4.2.3) (Acetylglucosamine phosphomutase) (N-acetylglucosamine-phosphate mutase)	PCM1 AGM1 YEL058W	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	557
+P25376	AGP1_YEAST	reviewed	General amino acid permease AGP1 (Asparagine/glutamine permease)	AGP1 YCL025C YCL25C	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	633
+P38090	AGP2_YEAST	reviewed	General amino acid permease AGP2	AGP2 YBR132C YBR1007	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	596
+P43548	AGP3_YEAST	reviewed	General amino acid permease AGP3	AGP3 YFL055W	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	558
+P43567	AGX1_YEAST	reviewed	Alanine--glyoxylate aminotransferase 1 (EC 2.6.1.44)	AGX1 YFL030W	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	385
+Q12449	AHA1_YEAST	reviewed	Hsp90 co-chaperone AHA1 (Activator of Hsp90 ATPase protein 1)	AHA1 YDR214W YD8142.16 YD8142B.06	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	350
+P25649	AHC2_YEAST	reviewed	ADA histone acetyltransferase complex component 2 (Putative transcriptional regulator AHC2)	AHC2 YCR082W YCR82W	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	128
+Q12433	AHC1_YEAST	reviewed	Protein AHC1 (ADA HAT complex component 1)	AHC1 YOR023C OR26.13	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	566
+P38013	AHP1_YEAST	reviewed	Peroxiredoxin type-2 (EC 1.11.1.15) (AHPC1) (Cytoplasmic thiol peroxidase 3) (cTPx 3) (Peroxiredoxin type II) (Peroxisomal alkyl hydroperoxide reductase) (TPx type II) (Thiol-specific antioxidant II) (TSA II) (Thioredoxin peroxidase type II) (Thioredoxin reductase type II)	AHP1 YLR109W L2916 L9354.5	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	176
+P29589	AHT1_YEAST	reviewed	Putative hexose transport activator protein	AHT1 YHR093W	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	182
+P03875	AI1M_YEAST	reviewed	Putative COX1/OXI3 intron 1 protein	aI1 Q0050	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	834
+P03876	AI2M_YEAST	reviewed	Putative COX1/OXI3 intron 2 protein	aI2 Q0055	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	854
+Q12152	YP150_YEAST	reviewed	Putative serine/threonine-protein kinase YPL150W (EC 2.7.11.1)	YPL150W	Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)	901
