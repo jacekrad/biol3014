@@ -1,0 +1,303 @@
+var DrLinesDropDownChoices = [
+{
+"label" : "Sequence databases",
+"selects" : [
+{"label" : "EMBL/GenBank/DDBJ", "value" : "embl"},
+{"label" : "CCDS", "value" : "ccds"},
+{"label" : "PIR", "value" : "pir"},
+{"label" : "RefSeq", "value" : "refseq"},
+{"label" : "UniGene", "value" : "unigene"}
+]},
+{
+"label" : "3D structure databases",
+"selects" : [
+{"label" : "PDB", "value" : "pdb"},
+{"label" : "SMR", "value" : "smr"},
+{"label" : "DisProt", "value" : "disprot"},
+{"label" : "ProteinModelPortal", "value" : "proteinmodelportal"}
+]},
+{
+"label" : "Protein-protein interaction databases",
+"selects" : [
+{"label" : "BioGrid", "value" : "biogrid"},
+{"label" : "DIP", "value" : "dip"},
+{"label" : "IntAct", "value" : "intact"},
+{"label" : "MINT", "value" : "mint"},
+{"label" : "STRING", "value" : "string"}
+]},
+{
+"label" : "Chemistry",
+"selects" : [
+{"label" : "BindingDB", "value" : "bindingdb"},
+{"label" : "ChEMBL", "value" : "chembl"},
+{"label" : "DrugBank", "value" : "drugbank"},
+{"label" : "GuidetoPHARMACOLOGY", "value" : "guidetopharmacology"}
+]},
+{
+"label" : "Protein family/group databases",
+"selects" : [
+{"label" : "Allergome", "value" : "allergome"},
+{"label" : "CAZy", "value" : "cazy"},
+{"label" : "MEROPS", "value" : "merops"},
+{"label" : "mycoCLAP", "value" : "mycoclap"},
+{"label" : "PeroxiBase", "value" : "peroxibase"},
+{"label" : "PptaseDB", "value" : "pptasedb"},
+{"label" : "REBASE", "value" : "rebase"},
+{"label" : "TCDB", "value" : "tcdb"}
+]},
+{
+"label" : "PTM databases",
+"selects" : [
+{"label" : "PhosphoSite", "value" : "phosphosite"},
+{"label" : "PhosSite", "value" : "phossite"},
+{"label" : "UniCarbKB", "value" : "unicarbkb"}
+]},
+{
+"label" : "Polymorphism databases",
+"selects" : [
+{"label" : "dbSNP", "value" : "dbsnp"},
+{"label" : "DMDM", "value" : "dmdm"}
+]},
+{
+"label" : "2D gel databases",
+"selects" : [
+{"label" : "SWISS-2DPAGE", "value" : "swiss-2dpage"},
+{"label" : "COMPLUYEAST-2DPAGE", "value" : "compluyeast-2dpage"},
+{"label" : "DOSAC-COBS-2DPAGE", "value" : "dosac-cobs-2dpage"},
+{"label" : "OGP", "value" : "ogp"},
+{"label" : "REPRODUCTION-2DPAGE", "value" : "reproduction-2dpage"},
+{"label" : "UCD-2DPAGE", "value" : "ucd-2dpage"},
+{"label" : "World-2DPAGE", "value" : "world-2dpage"}
+]},
+{
+"label" : "Proteomic databases",
+"selects" : [
+{"label" : "MaxQB", "value" : "maxqb"},
+{"label" : "PaxDb", "value" : "paxdb"},
+{"label" : "PeptideAtlas", "value" : "peptideatlas"},
+{"label" : "PRIDE", "value" : "pride"},
+{"label" : "ProMEX", "value" : "promex"}
+]},
+{
+"label" : "Protocols and materials databases",
+"selects" : [
+{"label" : "DNASU", "value" : "dnasu"}
+]},
+{
+"label" : "Genome annotation databases",
+"selects" : [
+{"label" : "Ensembl and Ensembl Genomes", "value" : "ensembl*"},
+{"label" : "  Ensembl", "value" : "ensembl"},
+{"label" : "  EnsemblBacteria", "value" : "ensemblbacteria"},
+{"label" : "  EnsemblFungi", "value" : "ensemblfungi"},
+{"label" : "  EnsemblMetazoa", "value" : "ensemblmetazoa"},
+{"label" : "  EnsemblPlants", "value" : "ensemblplants"},
+{"label" : "  EnsemblProtists", "value" : "ensemblprotists"},
+{"label" : "GeneCards", "value" : "genecards"},
+{"label" : "GeneID", "value" : "geneid"},
+{"label" : "KEGG", "value" : "kegg"},
+{"label" : "PATRIC", "value" : "patric"},
+{"label" : "UCSC", "value" : "ucsc"},
+{"label" : "VectorBase", "value" : "vectorbase"}
+]},
+{
+"label" : "Organism-specific databases",
+"selects" : [
+{"label" : "ArachnoServer", "value" : "arachnoserver"},
+{"label" : "CGD", "value" : "cgd"},
+{"label" : "ConoServer", "value" : "conoserver"},
+{"label" : "CTD", "value" : "ctd"},
+{"label" : "CYGD", "value" : "cygd"},
+{"label" : "dictyBase", "value" : "dictybase"},
+{"label" : "EchoBASE", "value" : "echobase"},
+{"label" : "EcoGene", "value" : "ecogene"},
+{"label" : "euHCVdb", "value" : "euhcvdb"},
+{"label" : "EuPathDB", "value" : "eupathdb"},
+{"label" : "FlyBase", "value" : "flybase"},
+{"label" : "GeneFarm", "value" : "genefarm"},
+{"label" : "GeneReviews", "value" : "genereviews"},
+{"label" : "GenoList", "value" : "genolist"},
+{"label" : "Gramene", "value" : "gramene"},
+{"label" : "H-InvDB", "value" : "h-invdb"},
+{"label" : "HGNC", "value" : "hgnc"},
+{"label" : "HPA", "value" : "hpa"},
+{"label" : "LegioList", "value" : "legiolist"},
+{"label" : "Leproma", "value" : "leproma"},
+{"label" : "MaizeGDB", "value" : "maizegdb"},
+{"label" : "MIM", "value" : "mim"},
+{"label" : "MGI", "value" : "mgi"},
+{"label" : "neXtProt", "value" : "nextprot"},
+{"label" : "Orphanet", "value" : "orphanet"},
+{"label" : "PharmGKB", "value" : "pharmgkb"},
+{"label" : "PomBase", "value" : "pombase"},
+{"label" : "PseudoCAP", "value" : "pseudocap"},
+{"label" : "RGD", "value" : "rgd"},
+{"label" : "SGD", "value" : "sgd"},
+{"label" : "TAIR", "value" : "tair"},
+{"label" : "TubercuList", "value" : "tuberculist"},
+{"label" : "WormBase", "value" : "wormbase"},
+{"label" : "Xenbase", "value" : "xenbase"},
+{"label" : "ZFIN", "value" : "zfin"}
+]},
+{
+"label" : "Phylogenomic databases",
+"selects" : [
+{"label" : "eggNOG", "value" : "eggnog"},
+{"label" : "GeneTree", "value" : "genetree"},
+{"label" : "HOGENOM", "value" : "hogenom"},
+{"label" : "HOVERGEN", "value" : "hovergen"},
+{"label" : "InParanoid", "value" : "inparanoid"},
+{"label" : "KO", "value" : "ko"},
+{"label" : "OMA", "value" : "oma"},
+{"label" : "OrthoDB", "value" : "orthodb"},
+{"label" : "PhylomeDB", "value" : "phylomedb"},
+{"label" : "TreeFam", "value" : "treefam"}
+]},
+{
+"label" : "Enzyme and pathway databases",
+"selects" : [
+{"label" : "BioCyc", "value" : "biocyc"},
+{"label" : "BRENDA", "value" : "brenda"},
+{"label" : "Reactome", "value" : "reactome"},
+{"label" : "SABIO-RK", "value" : "sabio-rk"},
+{"label" : "SignaLink", "value" : "signalink"},
+{"label" : "UniPathway", "value" : "unipathway"}
+]},
+{
+"label" : "Gene expression databases",
+"selects" : [
+{"label" : "ArrayExpress", "value" : "arrayexpress"},
+{"label" : "Bgee", "value" : "bgee"},
+{"label" : "CleanEx", "value" : "cleanex"},
+{"label" : "Genevestigator", "value" : "genevestigator"}
+]},
+{
+"label" : "Family and domain databases",
+"selects" : [
+{"label" : "HAMAP", "value" : "hamap"},
+{"label" : "InterPro", "value" : "interpro"},
+{"label" : "Gene3D", "value" : "gene3d"},
+{"label" : "PANTHER", "value" : "panther"},
+{"label" : "Pfam", "value" : "pfam"},
+{"label" : "PIRSF", "value" : "pirsf"},
+{"label" : "PRINTS", "value" : "prints"},
+{"label" : "ProDom", "value" : "prodom"},
+{"label" : "SMART", "value" : "smart"},
+{"label" : "SUPFAM", "value" : "supfam"},
+{"label" : "TIGRFAMs", "value" : "tigrfams"},
+{"label" : "PROSITE", "value" : "prosite"}
+]},
+{
+"label" : "Other",
+"selects" : [
+{"label" : "ChiTaRS", "value" : "chitars"},
+{"label" : "EvolutionaryTrace", "value" : "evolutionarytrace"},
+{"label" : "GenomeRNAi", "value" : "genomernai"},
+{"label" : "GeneWiki", "value" : "genewiki"},
+{"label" : "NextBio", "value" : "nextbio"},
+{"label" : "PMAP-CutDB", "value" : "pmap-cutdb"},
+{"label" : "PRO", "value" : "pro"}
+]}
+];
+var CCDropDownOptions = [
+{
+"label" : "",
+"selects" : [
+{"label" : "Any", "value" : "non-positional"},
+{"label" : "Allergenic properties", "value" : "allergen"},
+{"label" : "*Alternative products", "value" : "alternative products"},
+{"label" : " Alternative promoter usage", "value" : "alternative promoter usage"},
+{"label" : " Alternative splicing", "value" : "alternative splicing"},
+{"label" : " Alternative initiation", "value" : "alternative initiation"},
+{"label" : " Ribosomal frameshifting", "value" : "ribosomal frameshifting"},
+{"label" : "*Biophysicochemical properties", "value" : "biophysicochemical_properties"},
+{"label" : " Absorption", "value" : "absorption"},
+{"label" : " Kinetics", "value" : "kinetic"},
+{"label" : " pH dependence", "value" : "ph dependence"},
+{"label" : " Redox potential", "value" : "redox potential"},
+{"label" : " Temperature dependence", "value" : "temperature dependence"},
+{"label" : "Biotechnological use", "value" : "biotechnology"},
+{"label" : "Catalytic activity", "value" : "catalytic activity"},
+{"label" : "Caution", "value" : "caution"},
+{"label" : "Cofactor", "value" : "cofactor"},
+{"label" : "Developmental stage", "value" : "developmental stage"},
+{"label" : "Disruption phenotype", "value" : "disruption phenotype"},
+{"label" : "Domain", "value" : "non-positional domain"},
+{"label" : "Enzyme regulation", "value" : "enzyme regulation"},
+{"label" : "Function", "value" : "function"},
+{"label" : "Induction", "value" : "induction"},
+{"label" : "Involvement in disease", "value" : "disease"},
+{"label" : "Mass spectrometry", "value" : "mass"},
+{"label" : "Miscellaneous", "value" : "miscellaneous"},
+{"label" : "Pathway", "value" : "pathway"},
+{"label" : "Pharmaceutical use", "value" : "pharmaceutical"},
+{"label" : "Polymorphism", "value" : "polymorphism"},
+{"label" : "Post-translational modification", "value" : "ptm"},
+{"label" : "RNA Editing", "value" : "rna editing"},
+{"label" : "*Sequence caution", "value" : "sequence caution"},
+{"label" : " Frameshift", "value" : "frameshift"},
+{"label" : " Erroneous initiation", "value" : "erroneous initiation"},
+{"label" : " Erroneous termination", "value" : "erroneous termination"},
+{"label" : " Erroneous gene model prediction", "value" : "erroneous gene model prediction"},
+{"label" : " Erroneous translation", "value" : "erroneous translation"},
+{"label" : " Miscellaneous discrepancy", "value" : "miscellaneous discrepancy"},
+{"label" : "Sequence similarities", "value" : "similarity"},
+{"label" : "Subcellular location", "value" : "location"},
+{"label" : "Subunit structure", "value" : "subunit"},
+{"label" : "Tissue specificity", "value" : "tissue specificity"},
+{"label" : "Toxic dose", "value" : "toxic dose"}
+]}
+];
+var FTDropDownOptions = [
+{
+"label" : "",
+"selects" : [
+{"label" : "Any", "value" : "positional"},
+{"label" : "*Molecule processing", "value" : "molecule_processing"},
+{"label" : " Chain", "value" : "chain"},
+{"label" : " Initiator methionine", "value" : "init_met"},
+{"label" : " Peptide", "value" : "peptide"},
+{"label" : " Propeptide", "value" : "propep"},
+{"label" : " Signal peptide", "value" : "signal"},
+{"label" : " Transit peptide", "value" : "transit"},
+{"label" : "*Regions", "value" : "regions"},
+{"label" : " Calcium binding", "value" : "ca_bind"},
+{"label" : " Coiled-coil", "value" : "coiled"},
+{"label" : " Compositional bias", "value" : "compbias"},
+{"label" : " DNA binding", "value" : "dna_bind"},
+{"label" : " Domain", "value" : "positional domain"},
+{"label" : " Intramembrane", "value" : "intramem"},
+{"label" : " Motif", "value" : "motif"},
+{"label" : " Nucleotide binding", "value" : "np_bind"},
+{"label" : " Repeat", "value" : "repeat"},
+{"label" : " Region", "value" : "region"},
+{"label" : " Topological domain", "value" : "topo_dom"},
+{"label" : " Transmembrane", "value" : "transmem"},
+{"label" : " Zinc finger", "value" : "zn_fing"},
+{"label" : "*Sites", "value" : "sites"},
+{"label" : " Active site", "value" : "act_site"},
+{"label" : " Metal binding", "value" : "metal"},
+{"label" : " Binding site", "value" : "binding"},
+{"label" : " Other", "value" : "site"},
+{"label" : "*Amino acid modifications", "value" : "amino_acid_modifications"},
+{"label" : " Cross-link", "value" : "crosslnk"},
+{"label" : " Disulfide bond", "value" : "disulfid"},
+{"label" : " Glycosylation", "value" : "carbohyd"},
+{"label" : " Lipidation", "value" : "lipid"},
+{"label" : " Modified residue", "value" : "mod_res"},
+{"label" : " Non-standard residue", "value" : "non_std"},
+{"label" : "*Natural variations", "value" : "natural_variations"},
+{"label" : " Natural variant", "value" : "variant"},
+{"label" : " Alternative sequence", "value" : "var_seq"},
+{"label" : "*Experimental info", "value" : "experimental_info"},
+{"label" : " Mutagenesis", "value" : "mutagen"},
+{"label" : " Non-adjacent residues", "value" : "non_cons"},
+{"label" : " Non-terminal residue", "value" : "non_ter"},
+{"label" : " Sequence conflict", "value" : "conflict"},
+{"label" : " Sequence uncertainty", "value" : "unsure"},
+{"label" : "*Secondary structure", "value" : "secondary_structure"},
+{"label" : " Helix", "value" : "helix"},
+{"label" : " Turn", "value" : "turn"},
+{"label" : " Beta strand", "value" : "strand"}
+]}
+];
