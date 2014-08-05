@@ -1,0 +1,21 @@
+Filename                        Description
+--------                        -----------
+jp_3981BYL.align                PSIBLAST alignment with gaps and redundancy removed in FASTA format
+jp_3981BYL.als                  Alscript command file. Used to generate PS/PDF outputjp_3981BYL.blast.gz             PSIBLAST output (compressed)
+jp_3981BYL.coils.csv            The output from coils in CSV format
+jp_3981BYL.coilseq.lupas_14     The output from coils using a window length of 14
+jp_3981BYL.coilseq.lupas_21     The output from coils using a window length of 21
+jp_3981BYL.coilseq.lupas_28     The output from coils using a window length of 28
+jp_3981BYL.concise              The prediction in pseudo-CSV format, including the coiled-coil prediction, solvent accessiblity and the sequence alignment
+jp_3981BYL.concise.blc          A BLC file of the prediction and alignment
+jp_3981BYL.concise.pdf          A PDF file of the prediction and alignment
+jp_3981BYL.concise.ps           A PostScript file of the prediction and alignment
+jp_3981BYL.fasta                Input query sequence in FASTA format
+jp_3981BYL.hmm                  The HHMer2 profile of the alignment
+jp_3981BYL.html                 A HTML file of the prediction and alignment
+jp_3981BYL.jalview              A Jalview annotation file to be read in with the .align file to view the predictions in Jalview
+jp_3981BYL.jnet                 The output from Jnet
+jp_3981BYL.profile              PSIBLAST profile
+jp_3981BYL.pssm                 PSIBLAST PSSM in a format for Jnet
+jp_3981BYL.seq                  Your sequence
+jp_3981BYL.simple.html          The brief HTML output of the query sequence and prediction only

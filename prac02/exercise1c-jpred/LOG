@@ -1,0 +1,118 @@
+## Running Jpred Server version 3.0.1 ##
+
+--/homes/www-jpred/live/bin/webrun -ipline 124.170.115.228 -log /homes/www-jpred/live/public_html/results/jp_3981BYL/LOG -sequence /homes/www-jpred/live/public_html/results/jp_3981BYL/jp_3981BYL.seq -format seq -id jp_3981BYL
+--TIMEOUT set at 7200 seconds
+--Started work on jp_3981BYL at Tue Aug  5 05:36:58 2014
+--On machine pe-006.cluster.lifesci.dundee.ac.uk
+--format = seq
+>>10% complete
+--Running Jpred pipeline
+--CMD /homes/www-jpred/live/jpred/jpred --seq jp_3981BYL.fasta --output jp_3981BYL --db uniref90 --pred-nohits --verbose
+path: jp_3981BYL.fasta
+output: jp_3981BYL
+db: uniref90
+Running PSI-BLAST on query against 'uniref90.filt'...
+blastpgp error.log file was not empty
+>>40% complete
+Untruncating the PSIBLAST alignments...
+Unmasking the alignments...
+Converting sequences to the same case...
+Remove excessive sequences...
+Remove sequences which too long or short...
+Remove redundant sequences...
+Removing gaps in the query sequence...
+Outputting cleaned-up PSI_BLAST alignment...
+Output the PSSM matrix from the PSI-BLAST profile...
+>>50% complete
+Running HMMer on sequences found by PSI-BLAST...
+hmmbuild - build a hidden Markov model from an alignment
+HMMER 2.3.2 (Oct 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Alignment file:                    /tmp/4257280.1.c6145.q/P1KFfY7LvH
+File format:                       a2m
+Search algorithm configuration:    Multiple domain (hmmls)
+Model construction strategy:       Fast/ad hoc (gapmax 1.00)
+Null model used:                   (default)
+Prior used:                        (default)
+Sequence weighting method:         BLOSUM filter at 0.62 id
+New HMM file:                      /tmp/4257280.1.c6145.q/K1QKo26OUv 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Alignment:           #1
+Number of sequences: 348
+Number of columns:   175
+
+Determining effective sequence number    ... done. [121]
+Weighting sequences heuristically        ... done.
+Constructing model architecture          ... done.
+Converting counts to probabilities       ... done.
+Setting model name, etc.                 ... done. [P1KFfY7LvH]
+
+Constructed a profile HMM (length 175)
+Average score:      107.94 bits
+Minimum score:       33.33 bits
+Maximum score:      255.12 bits
+Std. deviation:      24.49 bits
+
+Finalizing model configuration           ... done.
+Saving model to file                     ... done.
+//
+
+hmmconvert - convert between profile HMM file formats
+HMMER 2.3.2 (Oct 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Input HMM file:           /tmp/4257280.1.c6145.q/K1QKo26OUv
+Output HMM file:          /tmp/4257280.1.c6145.q/9tJ1D9h04V
+Converting to:            GCG Profile .prf
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ - converted P1KFfY7LvH
+
+1 HMM(s) converted and written to /tmp/4257280.1.c6145.q/9tJ1D9h04V
+>>70% complete
+Running JNet using the generated inputs from HMM and PSI-BLAST...
+Jnet 2.2
+Found HMM profile data
+Found PSSM profile file
+Running final predictions!
+
+
+Both PSIBLAST and HMM profiles were found
+Accuracy will average 81.6%
+
+Jpred Finished
+>>80% complete
+--Running ncoils and multicoil
+       1 sequences      175 aas        0 in coil
+       1 sequences      175 aas        0 in coil
+       1 sequences      175 aas        0 in coil
+>>90% complete
+--creating output
+"JNETALIGN" data not present
+
+ALSCRIPT  (ALignment to PostScript)
+ALSCRIPT Version 2.07d - 2nd August 2011
+
+See ALSCRIPT.DOC for details
+
+Please Reference: Barton, G. J. (1993), Protein Engineering, 6, 37-40.
+
+By: G. J. Barton
+
+Copyright: Geoffrey J. Barton (1992,1997)
+email: geoff@compbio.dundee.ac.uk
+
+Initial Defaults:
+Maximum number of sequences:	 500 	(Change using MAX_NSEQ command)
+Maximum sequence length:	 8000 	(Change using MAX_SEQ_LEN command)
+Maximum identifier length:	 50 	(Change using MAX_ID_LEN command)
+ALscript Command File: jp_3981BYL.als
+Starting ALSCRIPT
+SILENT_MODE
+Max No. of sequences now:	362
+ALscript Finished
+--tarring up the data
