@@ -4,21 +4,11 @@ Created on 06/08/2014
 @author: s4361277
 '''
 from sequence import *
-from gibbs import *
-from gibbs import *
-seqs = readFastaFile('hth_40.fa', Protein_Alphabet)
-W = 24 # the width of the motif sought
-g = GibbsMotif(seqs, W)
-q = g.discover()
-p = g.getBackground()
-a = getAlignment(seqs, q, p)
-k = 0
-for seq in seqs:
-    print "%s \t%s" % (seq.name, seq[a[k]:a[k]+W])
-    k += 1
 
-foreground = None
+foreground = readDistrib("ex1e-W10-iteration1-p.aln")
 background = readDistrib("blosum62.distrib")
+
+print type(foreground), type(background)
 
 pwm = PWM(foreground, background)
 

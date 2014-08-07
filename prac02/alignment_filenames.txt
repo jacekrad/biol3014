@@ -1,0 +1,9 @@
+ex1e-W10-iteration1.aln
+ex1e-W10-iteration2.aln
+ex1e-W10-iteration3.aln
+ex1e-W24-iteration1.aln
+ex1e-W24-iteration2.aln
+ex1e-W24-iteration3.aln
+ex1e-W30-iteration1.aln
+ex1e-W30-iteration2.aln
+ex1e-W30-iteration3.aln
