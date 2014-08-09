@@ -5,12 +5,12 @@ Created on 06/08/2014
 '''
 from sequence import *
 
-foreground = readDistrib("ex1e-W10-iteration1-p.aln")
-background = readDistrib("blosum62.distrib")
+foreground = readDistribs("ex1e-W30-iteration2-p-max.distrib")
+background = readDistribs("ex1e-W30-iteration2-q-max.distrib")
 
 print type(foreground), type(background)
 
-pwm = PWM(foreground, background)
+pwm = PWM(foreground, background[0])
 
 ids = []
 seqs = readFastaFile('HPRD.fa', Protein_Alphabet)

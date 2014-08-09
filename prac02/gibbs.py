@@ -26,6 +26,7 @@ class GibbsMotif():
         self.length = length # length of motif 1..W
         seqs = self.seqs
         self.alphabet = None
+        self.maxLL = 0.0
         k = 0
         for s in seqs:
             if self.alphabet != None and self.alphabet != s.alphabet:
@@ -70,8 +71,8 @@ class GibbsMotif():
         
         """ Main loop: predictive update step THEN sampling step, repeat... """
         niter = niter or 100 * N # use specified number of iterations or default
+
         for round in range(niter):
-        
             """ Predictive update step:
                 One of the N sequences are chosen at random: z. 
                 We will not use it in the profile, nor background so we 
@@ -134,8 +135,12 @@ class GibbsMotif():
                         LL += math.log(Qk / Pk)
                     except ZeroDivisionError:
                         pass
-                print "LL @ %5d=\t%5.2f" % (round, LL)
+                #print "LL @ %5d=\t%5.2f" % (round, LL)
+                
+                if LL > self.maxLL:
+                    self.maxLL = LL
 
+        #print "maxLL:", self.maxLL
         # end main for-loop
         self.q = q
         self.p = p
