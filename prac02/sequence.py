@@ -997,7 +997,7 @@ class PWM(object):
     def __str__(self):
         str = ''
         for j in range(len(self.alphabet)):
-            str += "%s\t%s\n" % (self.alphabet[j], ' '.join("%+6.2f" % (y) for y in self.m[j]))
+            str += "%s\t%s\n" % (self.alphabet[j], ' '.join("%+6.20f" % (y) for y in self.m[j]))
         return str
 
     def display(self, format = 'COLUMN'):
@@ -1020,7 +1020,7 @@ class PWM(object):
             ndxseq = [ self.alphabet.index(sym) for sym in subseq ]
             score = 0.0
             for w in range(len(ndxseq)):
-                score += self.m[ ndxseq[w] ][ w ] 
+                score += self.m[ ndxseq[w] ][ w ]
             if score > lowerBound:
                 results.append((i, subseq, score))
         return results

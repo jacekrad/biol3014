@@ -5,27 +5,29 @@ Created on 06/08/2014
 '''
 from gibbs import *
 from sequence import *
-import sys
 
 seqs = readFastaFile("hth_40.fa", Protein_Alphabet)
-width_values = [10, 24, 30]
-#W = 10 # the width of the motif sought
 
-# list of the files where we dump the results
-# these will go to stderr for logo post processing
-alignment_filenames = []
+W = 10 # the width of the motif sought
 
-for W in width_values:
-    for i in range(1,4): # create 3 sets of results
-        g = GibbsMotif(seqs, W)
-        q = g.discover()
-        p = g.getBackground()
-        a = getAlignment(seqs, q, p)
-        k = 0
-        results_filename = "ex1d-W" + str(W) + "-iteration" + str(i) + ".aln"
-        sys.stderr.write(results_filename + "\n")
-        results_file = open(results_filename, 'w')
-        for seq in seqs:
-            results_file.write("%s \t%s\n" % (seq.name, seq[a[k]:a[k]+W]))
-            k += 1
-        results_file.close()
+# create a GibbsMotif object from a list of sequences
+# and of length W    
+g = GibbsMotif(seqs, W)
+    
+# execute the core Gibbs Sampling algorithm to discover 
+# the motif          
+q = g.discover()
+   
+# get the probability distribution for the background used
+# in the discovery calculated above
+p = g.getBackground()
+
+# getAlignments is called and alignment for sequences seq
+# is calculated from the foreground q and background p
+# the resulting alignment is assigned to a
+a = getAlignment(seqs, q, p)
+
+k = 0
+for seq in seqs:
+    print "%s \t%s" % (seq.name, seq[a[k]:a[k]+W])
+    k += 1
