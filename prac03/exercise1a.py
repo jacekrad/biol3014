@@ -42,17 +42,44 @@ for protein in prot:
             
 print "checked", i, "entries"
 
-prot_trn = prot[0::2] # even-numbered indices
-prot_tst = prot[1::2] # odd-numbered indices
-sstr_trn = sstr[0::2] # even-numbered indices
-sstr_tst = sstr[1::2] # odd-numbered indices
+prot_trn = prot[0::2]  # even-numbered indices
+prot_tst = prot[1::2]  # odd-numbered indices
+sstr_trn = sstr[0::2]  # even-numbered indices
+sstr_tst = sstr[1::2]  # odd-numbered indices
+
+print len(prot_trn[0])
 
 W = 5
-slidewin(prot_trn[0], W)
+print prot_trn[0]
+print slidewin(prot_trn[0], W)
+print len(slidewin(prot_trn[0], W))
 nb = NaiveBayes([Protein_Alphabet for _ in range(W)], DSSP3_Alphabet)
 
-for i in range(len(prot_trn)): # for each sequence
-    subseqs = slidewin(prot_trn[i], W) # construct sub-seqs
-    subtarg = sstr_trn[i][W/2:-W/2+1] # secondary structure elem
+# iterate over the sequence of proteins in the training set
+#for i in range(len(prot_trn)):  
+print "-------------------------------------------------------"
+for i in range(1):  
+    subseqs = slidewin(prot_trn[i], W)  # construct sub-seqs
+    subtarg = sstr_trn[i][W / 2:-W / 2 + 1]  # secondary structure elem.  remove the overhang
+    print subtarg
+    print sstr_trn[i]
+    #print subseqs, subtarg
+    
     for j in range(len(subseqs)):
-        nb.observe(subseqs[j], subtarg[j]) # let NB count
+        nb.observe(subseqs[j], subtarg[j])  # let NB count
+        print "observing", subseqs[j], subtarg[j]
+        
+# create an array of zeroes of length of the secondary structure alphabet
+cm = numpy.zeros((len(DSSP3_Alphabet), len(DSSP3_Alphabet)))
+
+# iterate over the proteins in the test set
+for i in range(len(prot_tst)):
+    subseqs = slidewin(prot_tst[i], W)
+    subtarg = sstr_tst[i][W/2:-W/2+1]
+    for j in range(len(subseqs)):
+        out = nb[subseqs[j]]
+        c_targ = DSSP3_Alphabet.index(subtarg[j])  
+        c_pred = out.prob().index(max(out.prob()))
+        cm[c_targ, c_pred] += 1
+        
+        
